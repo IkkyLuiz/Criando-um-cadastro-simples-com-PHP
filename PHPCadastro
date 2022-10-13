@@ -1,0 +1,11 @@
+<?php
+function CadastroCliente($nome, $idade, $endereco){
+	return $array=[$nome,$idade,$endereco];
+}
+
+	function imprimeCadastro($array){
+	print_r($array);
+}
+
+	$cliente = CadastroCliente("Pedro",15,"Rua Um");
+	imprimeCadastro($cliente);
